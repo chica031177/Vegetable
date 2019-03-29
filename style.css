@@ -1,0 +1,147 @@
+body{
+  background: #edf2c5;
+}
+
+.page{
+  width: 1260px;
+  margin: auto;
+  margin-top: 53px;
+  /* background: white; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+header h1{
+  font-family: Arial Black;
+  font-size: 44px;
+  color: #778a50;
+  margin: 0;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 940px;
+  /* border: solid pink 1px; */
+  margin-bottom: 8px;
+}
+
+header .buttons{
+  display: flex;
+}
+header .buttons img{
+  height: 25px;
+  width: 25px;
+  cursor: pointer;
+}
+
+header .buttons img, .line, header .buttons button{
+  margin-left: 10px;
+}
+
+.line{
+  border-left: solid #778a50 1px;
+}
+
+header .buttons button{
+  background: transparent;
+  border-radius: 3px;
+  border: solid #778a50 1px;
+  font-family: Arial;
+  font-weight: bold;
+  color: #778a50;
+  height: 25px;
+  cursor: pointer;
+}
+
+nav{
+  /* border: solid red 1px; */
+  width: 940px;
+  background: #778a50;
+  padding: 16px 0;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+nav a{
+  text-decoration: none;
+  font-family: Arial Black;
+  font-size: 16px;
+  color: #edf2c5;
+  margin: 0 30px;
+}
+
+.pumpkin{
+  width: 940px;
+  margin-bottom: 30px;
+  border-radius: 3px;
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 940px;
+  margin-bottom: 35px;
+}
+
+.block{
+  width: 445px;
+}
+
+main .block h2{
+  padding: 15px 30px;
+  font-family: Arial Black;
+  font-size: 16px;
+  background: #778a50;
+  color: #edf2c5;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+.picture{
+  display: flex;
+  justify-content: space-between;
+}
+
+.picture img{
+  height: 140px;
+  width: 140px;
+}
+
+.word{
+  background: #f7fbda;
+  padding: 16px 15px;
+  border-radius: 3px;
+}
+
+.word p{
+  font-family: Arial;
+  font-size: 12px;
+  line-height: 1.33;
+  margin: 0;
+  color: #7d7d7d;
+}
+
+p.contact{
+  line-height: 1.83;
+}
+
+.divide{
+  border-top: solid #7d7d7d 1px;
+  margin: 16px 0;
+}
+
+footer{
+  font-family: Arial;
+  font-size: 12px;
+  color: #edf2c5;
+  width: 100%;
+  background: #778a50;
+  text-align: center;
+  padding: 24px 0 25px 0;
+}
